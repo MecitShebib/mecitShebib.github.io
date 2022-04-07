@@ -5,102 +5,167 @@
     <title>My CV</title>
     <link href="Style.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    
 </head>
 <body>
 
-    
+    <script>
+        function contact() {
+            var x = document.getElementById("sağ_para");
+
+            x.style.display = "none";
+            document.getElementById("contact").style.display = "flex";
+        }
+        function home() {
+            var x = document.getElementById("sağ_para");
+
+            x.style.display = "flex";
+            document.getElementById("contact").style.display = "none";
+
+        }
+    </script>
     <div id="body">
         <div id="sol_para">
             <div>
-                <img src="profil_photo.jpg" alt="profil resmi"class="resim" />
+                <img src="profil_photo.jpg" alt="profil resmi" class="resim" />
             </div>
             <h1>
-                <i class="fa fa-user-circle" aria-hidden="true"style="font-size:30px;"></i> PERSONAL
+                <i class="fa fa-user-circle" aria-hidden="true" style="font-size:30px;"></i> PERSONAL
             </h1>
             <h2>*Date Of Birth:</h2>
             <h3>2nd February 2000</h3>
             <h2>*Place Of Birth:</h2>
             <h3>Syria - Aleppo</h3>
             <h2>*Marital Status:</h2>
-            <h3>Singel</h3>
-            <h1><i class="fa fa-address-book" aria-hidden="true"style="font-size:30px;"></i> CONTACT</h1>
-            <h2>*Address:</h2>
-            <h3>Bahçelievler - İstanbul</h3>
-            <h2>*E-Mail:</h2>
-            <h3>mjdmjd686@gmail.com</h3>
-            <h2>*Mobile:</h2>
-            <h3>+905342641738</h3>
-            
+            <h3 style="margin: 0px 0px 15px 15px;">Singel</h3>
+            <button class="button" onclick="home()"><span><i class="fa fa-home" aria-hidden="true" style="font-size:25px;"></i> Home</span></button>
+            <button class="button" onclick="contact()"><span><i class="fa fa-address-book" aria-hidden="true" style="font-size:25px;"></i> CONTACT</span></button>
+
+           
         </div>
-        <div id="sağ_para">
-
-
-            <div id="header">Mohamad Majd SHBIB</div>
-            <div id="bilgi">
-                <h2>Computer Science Engineer</h2>
-            </div>
-            <div id="bilgi2">
-                <h3 style="margin: 0px 0px 0px 0px;">About Me:</h3>
-                web programming and android programs developer computer engineering.<br>
-                I am able to handle multiple tasks on a daily basis.<br>
-                I use a creative approach to problem solve.<br>
-                I am a dependable person who is great at time management.<br>
-                I am always energetic and eager to learn new skills.
-            </div>
-            <div id="flex-container">
-                <div class="flex" , style="height:250px; width:240px;line-height:30px;">
-                    <h2 style="margin: 40px 5px 0px 0px; ">EDUCATION</h2>
-                    <h3 style="font-size: 20px; margin: 20px 5px 0px 2px;">
-                        Marmara University Engineering Department
-                        Computer Engineer 3rd year (continues)
-                    </h3>
+        <div class="sağ_para" id="sağ_para">
+            <div class="sağ_para">
+                <div id="header">Mohamad Majd SHBIB</div>
+                <div id="bilgi">
+                    <h2>Computer Science Engineer</h2>
                 </div>
-                <div class="flex">
-                    <div style="margin-top:20px;">hello world</div>
+                <div id="bilgi2">
+                    <h3 style="margin: 0px 0px 0px 0px;">About Me:</h3>
+                    web programming and android programs developer computer engineering.<br>
+                    As I continue to improve myself in software, I also have a good command of hardware.<br>
+                    I develop programs in C, Python, Kotlin, HTML/CSS/JS Technologies.<br>
+                    I am able to handle multiple tasks on a daily basis.<br>
+                    I use a creative approach to problem solve.<br>
+                    I am a dependable person who is great at time management.<br>
+                    I am always energetic and eager to learn new skills.
                 </div>
-                <div class="flex">
-                    <div style="margin-top:20px;">
-                        C1 Turkish at Sabahattin Zaim University
+                <div class="flex-container">
+                    <div class="flex" , style="height:250px; width:240px;line-height:30px;">
+                        <h2 style="margin: 40px 5px 0px 0px; ">EDUCATION</h2>
+                        <h3 style="font-size: 20px; margin: 20px 5px 0px 2px;">
+                            Marmara University Engineering Department
+                            Computer Engineer 3rd year (continues)
+                        </h3>
+                    </div>
+                    <div class="flex">
+                        <div style="margin-top:20px;">Graduated from Osman Öztürk High School, 2015 to 2019</div>
+                    </div>
+                    <div class="flex">
+                        <div style="margin-top:20px;">
+                            C1 Turkish at Sabahattin Zaim University, 2017
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div style="margin-top:20px;">open source software development certification</div>
+                    </div>
+                    <div class="flex">
+                        <div style="margin-top:20px;">HTML course certificate from Codecademy</div>
                     </div>
                 </div>
-                <div class="flex">
-                    <div style="margin-top:20px;">open source software development certification</div>
-                </div>
-                <div class="flex">
-                    <div style="margin-top:20px;">HTML course certificate from Codecademy</div>
-                </div>
+
             </div>
-            <div id="skills_para">
-                <p style="line-height:5px;">HTML</p>
-                <div class="progress_bar">
-                    <div class="skill html">90%</div>
+            <div class="sağ_para">
+                <div id="skills_para">
+                    <p style="line-height:10px;">HTML</p>
+                    <div class="progress_bar">
+                        <div class="skill html">90%</div>
+                    </div>
+                    <p style="line-height:10px;">CSS</p>
+                    <div class="progress_bar">
+                        <div class="skill css">80%</div>
+                    </div>
+                    <p style="line-height:10px;">JavaScript</p>
+                    <div class="progress_bar">
+                        <div class="skill javaScript">50%</div>
+                    </div>
+                    <p style="line-height:10px;">Java</p>
+                    <div class="progress_bar">
+                        <div class="skill java">60%</div>
+                    </div>
+                    <p style="line-height:10px;">Python</p>
+                    <div class="progress_bar">
+                        <div class="skill python">70%</div>
+                    </div>
                 </div>
-                <p style="line-height:5px;">CSS</p>
-                <div class="progress_bar">
-                    <div class="skill css">80%</div>
+                <div id="son_para">
+                    <div id="diller">
+                        <h2 style="margin-top: 20px; line-height: 10px;">LANGUAGES:</h2>
+                        <h3 style="margin-top: 30px; line-height: 10px; margin-left: 30px;">Arabic <b style="color: #C43D20; margin-left: 35px; ">Native Language</b> </h3>
+                        <h3 style="margin-top: 10px; line-height: 10px; margin-left: 30px;">Turkish <b style="color: #C43D20; margin-left: 25px;">Advanced</b></h3>
+                        <h3 style="margin-top: 10px; line-height: 10px; margin-left: 30px;">English <b style="color: #C43D20; margin-left: 30px;">İntermediate</b></h3>
+                    </div>
+                    <div id="sosyal">
+                        <div>
+
+                        </div>
+
+                    </div>
                 </div>
-                <p style="line-height:5px;">JavaScript</p>
-                <div class="progress_bar">
-                    <div class="skill javaScript">50%</div>
-                </div>
-                <p style="line-height:5px;">Java</p>
-                <div class="progress_bar">
-                    <div class="skill java">60%</div>
-                </div>
+
             </div>
-            <div id="son_para">
-                <div id="diller">
-                    <h2 style="margin-top: 20px; line-height: 10px;">LANGUAGES:</h2>
-                    <h3 style="margin-top: 30px; line-height: 10px; margin-left: 30px;">Arabic <b style="color: #C43D20; margin-left: 35px; ">Native Language</b> </h3>
-                    <h3 style="margin-top: 10px; line-height: 10px; margin-left: 30px;">Turkish <b style="color: #C43D20; margin-left: 25px;">Advanced</b></h3>
-                    <h3 style="margin-top: 10px; line-height: 10px; margin-left: 30px;">English <b style="color: #C43D20; margin-left: 30px;">İntermediate</b></h3>
-                </div>
-                <div id="sosyal">
-                    <div> </div>
-                    
-                </div>
+        </div>
+        <div class="contact" id="contact">
+            <div style="margin:100px 70px;">
+                <h1><i class="fa fa-address-book" aria-hidden="true" style="font-size:30px;"></i> CONTACT</h1>
+
+                <h2>*E-Mail:</h2>
+                <a href="mailto: mjdmjd686@gmail.com"><h3>mjdmjd686@gmail.com</h3></a>
+                <h2>*Mobile:</h2>
+                <h3>+905342641738</h3>
+                <h2>*LinkedIn</h2>
+                <a href="https://www.linkedin.com/in/mecit-%C5%9Febib-bb9688202/"><h3>Linkedin Profil</h3></a>
+                <h2>*İnstagram</h2>
+                <a href="https://www.instagram.com/mjd2000mohamad/"><h3>İnstagram Profil</h3></a>
+                <h2>*Address:</h2>
+                <h3>Bahçelievler - İstanbul</h3>
+            </div>
+            <div class="container" style="margin:30px 20px 20px 130px;">
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="turkey">Turkey</option>
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+
+                    </select>
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
             </div>
         </div>
     </div>
+    
+
 </body>
 </html>
