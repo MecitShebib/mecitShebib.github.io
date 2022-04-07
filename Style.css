@@ -1,0 +1,171 @@
+* {
+    border-radius: 10px;
+    
+}
+
+#body {
+    background-color: #E5E8E8;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 800px;
+    height: 1100px;
+    padding-block: 10px;
+}
+#sol_para {
+    padding-left: 10px;
+    margin-left: 10px;
+    background-color: #42929A;
+    width: 230px;
+    height: 1080px;
+    border: solid 3px;
+    border-color: black;
+    color: #D9DDDE;
+}
+.resim {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin: 15px auto auto 5px;
+    border: solid 3px;
+    border-color: black;
+}
+#sağ_para {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: auto;
+    height: 1100px;
+    padding-block: 10px;
+}
+#header {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 490px;
+    border: solid 3px;
+    border-color: #99A3A4;
+    color: #99A3A4;
+    padding-inline-start: 10px;
+    padding-block: 10px;
+    font-size: 50px;
+    color: #99A3A4;
+}
+#bilgi {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    width: 490px;
+    color: black;
+    background-color: #99A3A4;
+    padding-inline-start: 10px;
+    padding-block: 10px;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+#bilgi2 {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    width: 490px;
+    
+    color: black;
+    background-color: #99A3A4;
+    padding-inline-start: 10px;
+    padding-block: 10px;
+    color: black;
+    font-size: 20px;
+}
+#flex-container {
+    padding-inline-start: 10px;
+    margin: 0px 10px 0px 10px;
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    flex-wrap: wrap;
+    padding-block: 10px;
+}
+.flex {
+    margin: auto;
+    border-radius: 10px;
+    background-color: #42929A;
+    text-align: center;
+    padding: 0px;
+    line-height: 20px;
+    height: 120px;
+    width: 120px;
+    font-size: 20px;
+}
+#skills_para {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    width: 490px;
+    border: solid 3px green;
+    color: black;
+    
+    padding-inline-start: 10px;
+    
+    padding-block-end: 15px;
+}
+.progress_bar {
+    background-color: rgb(192, 192, 192);
+    width: 90%;
+    border-radius: 15px;
+}
+.skill {
+    background-color: rgb(116, 194, 92);
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+
+}
+.html {
+    width: 90%;
+}
+.css {
+    width: 80%;
+}
+.javaScript {
+    width: 50%;
+}
+.java{
+    width: 60%;
+}
+#son_para {
+    display: flex;
+   
+}
+#diller {
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 5px;
+    width: 330px;
+    color: black;
+    background-color: #AFC4C6;
+    padding-inline-start: 10px;
+    padding-block: 10px;
+    color: black;
+    font-size: 20px;
+    line-height: 20px;
+}
+#sosyal {
+    margin-top: 5px;
+    padding-top: 10px;
+    width: 150px;
+    color: black;
+    background-color: #AFC4C6;
+    padding-inline-start: 10px;
+}
+h1 {
+    margin: 50px 0px 10px 0px;
+}
+h2 {
+    margin: 0px 0px 0px 15px;
+}
+h3{
+    margin: 0px 0px 25px 15px;
+}
