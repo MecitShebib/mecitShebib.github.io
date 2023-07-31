@@ -241,6 +241,31 @@ h1, h2, h3, h4, h5, h6 {
 color: white;
 }
 
+#button_lang{
+  border:1px solid #149ddd;
+  position: absolute;
+  top: 8%;
+  right: 2%;
+  padding: 5px 10px;
+  cursor: pointer;
+  z-index: 1000;
+  background-color: cadetblue;
+  
+}
+
+#button_lang:hover{
+  background-color: rgb(136, 190, 192);
+}
+
+#button_lang:active {
+  background-color: #a9ccfa;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#button_lang a{
+color: white;
+}
 
 #hero h1 {
   margin: 0 0 10px 0;
