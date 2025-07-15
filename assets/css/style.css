@@ -60,12 +60,13 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 300px;
+  width: 270px;
   transition: all ease-in-out 0.5s;
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: cadetblue;
+  background: #7fa2cb;
+  color: white;
   overflow-y: auto;
 }
 #header .profile img {
@@ -73,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   height: 150px;
   width: 150px;
-  border: 5px solid #2c2f3f;
+  border: 1px solid #2c2f3f;
 }
 #header .profile h1 {
   font-size: 24px;
@@ -141,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   color: #3d3e47;
-  padding: 12px 15px;
+  padding: 7px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
@@ -218,17 +219,17 @@ h1, h2, h3, h4, h5, h6 {
 #button{
   border:1px solid #149ddd;
   position: absolute;
-  top: 8%;
-  right: 5%;
+  top: 15px;
+  right: 65px;
   padding: 5px 10px;
   cursor: pointer;
   z-index: 1000;
-  background-color: cadetblue;
+  background-color: #7fa2cb;
   
 }
 
 #button:hover{
-  background-color: rgb(136, 190, 192);
+  background-color: #149ddd;
 }
 
 #button:active {
@@ -244,17 +245,17 @@ color: white;
 #button_lang{
   border:1px solid #149ddd;
   position: absolute;
-  top: 8%;
-  right: 2%;
+  top: 15px;
+  right: 15px;
   padding: 5px 10px;
   cursor: pointer;
   z-index: 1000;
-  background-color: cadetblue;
+  background-color: #7fa2cb;
   
 }
 
 #button_lang:hover{
-  background-color: rgb(136, 190, 192);
+  background-color: #149ddd;
 }
 
 #button_lang:active {
